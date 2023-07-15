@@ -4,6 +4,10 @@
     list-style: none;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 .burger {
     width: 40px;
     height: 30px;
@@ -73,6 +77,11 @@
 
 }
 
+.main_link {
+    margin: 0 auto;
+    width: fit-content;
+}
+
 .main_btn {
     border-radius: 6.676px;
     background: #C2636C;
@@ -83,7 +92,6 @@
     font-weight: 700;
     line-height: normal;
     border: 0;
-    margin: 0 auto;
     width: 370px;
     height: 90px;
     margin-top: 13px;
