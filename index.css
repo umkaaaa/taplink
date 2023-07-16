@@ -162,7 +162,7 @@ html {
     font-weight: 500;
     line-height: 120%;
     /* 20.027px */
-    margin-top: 13px;
+    margin-top: 8px;
 }
 
 .author_job {
@@ -193,7 +193,7 @@ html {
 
 .tufelka_image {
     width: 100%;
-    margin: top 7px;
+    margin: top 15px;
 }
 
 .tufelka_desc {
@@ -226,4 +226,207 @@ html {
 
 .slogan_img {
     width: 100%;
+}
+
+.how_title {
+    margin-left: 27px;
+    margin-top: 36px;
+    color: var(--unnamed, #262626);
+    font-family: Spectral SC;
+    font-size: 38.384px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 90.7%;
+    /* 34.814px */
+}
+
+.how_desc {
+    margin-top: 20 px;
+    margin-left: 27px;
+    color: var(--unnamed, #262626);
+    font-family: Raleway;
+    font-size: 16.689px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%;
+}
+
+.how_desc span {
+    color: var(--unnamed, #C2636C);
+    font-family: Raleway;
+    font-size: 16.689px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%;
+}
+
+.how_img {
+    width: 163px;
+    height: 163px;
+    margin-left: -60px;
+    margin-right: -3px;
+    margin-top: -44px;
+}
+
+.process {
+    background-color: #C2636C;
+    padding: 0 28px;
+
+}
+
+.process_title {
+    color: #FFF;
+    font-family: Spectral SC;
+    font-size: 38.384px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 90.7%;
+    /* 34.814px */
+    margin-top: 39px;
+    padding-top: 13px;
+}
+
+.how_content {
+    display: flex;
+
+}
+
+.process_card {
+    background-color: #FFF;
+    border: 3px solid black;
+    border-radius: 6px;
+    margin-top: 13px;
+    margin-bottom: 12px;
+
+}
+
+.card_number {
+    color: #000;
+    font-family: Spectral SC;
+    font-size: 53.404px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 90.7%;
+    /* 48.438px */
+}
+
+.card_title {
+    color: #000;
+    font-family: Raleway;
+    font-size: 20.027px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    /* 24.032px */
+}
+
+.card_text {
+    color: #000;
+    font-family: Raleway;
+    font-size: 16.689px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%;
+    padding: 18px 14px;
+    /* 20.027px */
+}
+
+.card_text span {
+    color: #FF7082;
+    font-family: Raleway;
+    font-size: 16.689px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%;
+    margin-top: 6px;
+}
+
+.card_header {
+    display: flex;
+    border-bottom: 1px solid black;
+    padding: 18px 14px;
+    padding-bottom: 3px;
+}
+
+.card_img {
+    width: 60px;
+    height: 60px;
+    margin-bottom: -8px;
+}
+
+.title_questions {
+    color: #000;
+    font-family: Spectral SC;
+    font-size: 38.384px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 90.7%;
+    /* 34.814px */
+    margin-top: 36px;
+    margin-left: 25px;
+}
+
+.content_questions {
+    color: #000;
+    font-family: Raleway;
+    font-size: 16.689px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%;
+    /* 20.027px */
+    margin-top: 16px;
+}
+
+.content_questions span {
+    color: var(--unnamed, #C2636C);
+    font-family: Raleway;
+    font-size: 16.689px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%;
+}
+
+.block_questions {
+    margin-top: 6px;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    padding: 6px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 14px;
+    margin-right: 25px;
+}
+
+.icon_questions {
+    color: #000;
+    font-family: Raleway;
+    font-size: 33.378px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%;
+    /* 40.053px */
+}
+
+.connect_title {
+    color: #000;
+    font-family: Spectral SC;
+    font-size: 38.384px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 90.7%;
+    /* 34.814px */
+    margin-left: 27px;
+    margin-top: 43px;
+}
+
+.container_connect {
+    display: flex;
+}
+
+.connect_img {
+    width: 170px;
+    height: 117px;
+    border: 2px solid black;
+    margin: 10px;
+    margin-left: ;
 }
