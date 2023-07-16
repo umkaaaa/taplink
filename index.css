@@ -2,6 +2,8 @@
     margin: 0;
     padding: 0;
     list-style: none;
+    color: inherit;
+    text-decoration: inherit;
 }
 
 html {
@@ -94,11 +96,11 @@ html {
     border: 0;
     width: 370px;
     height: 90px;
-    margin-top: 13px;
+    margin-top: 6px;
 }
 
 .about {
-    margin-top: 33px;
+    margin-top: 36px;
     padding: 0 28px;
 }
 
@@ -193,7 +195,8 @@ html {
 
 .tufelka_image {
     width: 100%;
-    margin: top 15px;
+    margin-top: 7px;
+
 }
 
 .tufelka_desc {
@@ -205,6 +208,7 @@ html {
     line-height: 120%;
     margin-top: 8px;
     display: flex;
+    padding-bottom: 12px;
 
 }
 
@@ -228,8 +232,9 @@ html {
     width: 100%;
 }
 
+
 .how_title {
-    margin-left: 27px;
+    margin-left: 28px;
     margin-top: 36px;
     color: var(--unnamed, #262626);
     font-family: Spectral SC;
@@ -240,9 +245,13 @@ html {
     /* 34.814px */
 }
 
+.how {
+    padding-bottom: 12px;
+}
+
 .how_desc {
-    margin-top: 20 px;
-    margin-left: 27px;
+    margin-top: 20px;
+    margin-left: 28px;
     color: var(--unnamed, #262626);
     font-family: Raleway;
     font-size: 16.689px;
@@ -263,14 +272,14 @@ html {
 .how_img {
     width: 163px;
     height: 163px;
-    margin-left: -60px;
-    margin-right: -3px;
-    margin-top: -44px;
+    margin-right: -25px;
 }
 
 .process {
     background-color: #C2636C;
     padding: 0 28px;
+    padding-bottom: 32px;
+    background-image: url(images/фон.png);
 
 }
 
@@ -282,12 +291,14 @@ html {
     font-weight: 700;
     line-height: 90.7%;
     /* 34.814px */
-    margin-top: 39px;
+    margin-top: 0px;
     padding-top: 13px;
 }
 
 .how_content {
     display: flex;
+    overflow: hidden;
+
 
 }
 
@@ -346,12 +357,20 @@ html {
     border-bottom: 1px solid black;
     padding: 18px 14px;
     padding-bottom: 3px;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
 .card_img {
     width: 60px;
     height: 60px;
     margin-bottom: -8px;
+}
+
+.header_questions {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .title_questions {
@@ -391,10 +410,26 @@ html {
     border-top: 2px solid black;
     border-bottom: 2px solid black;
     padding: 6px;
-    display: flex;
     justify-content: space-between;
     margin-left: 14px;
     margin-right: 25px;
+    align-items: center;
+}
+
+.block_questions_open .answer_questions {
+    display: block;
+}
+
+.block_questions_open .icon_questions_plus {
+    display: none;
+}
+
+.block_questions_open .icon_questions_minus {
+    display: block;
+}
+
+.icon_questions_minus {
+    display: none;
 }
 
 .icon_questions {
@@ -407,6 +442,29 @@ html {
     /* 40.053px */
 }
 
+.answer_questions {
+    display: none;
+    color: #000;
+    font-family: Raleway;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+    /* 14.4px */
+}
+
+.answer_questions span {
+    font-size: 14px;
+
+    color: #C2636C;
+    font-weight: 500;
+
+}
+
+.connect {
+    margin-top: 36px;
+}
+
 .connect_title {
     color: #000;
     font-family: Spectral SC;
@@ -415,18 +473,42 @@ html {
     font-weight: 700;
     line-height: 90.7%;
     /* 34.814px */
-    margin-left: 27px;
-    margin-top: 43px;
+    margin-left: 28px;
+    margin-top: px;
 }
 
 .container_connect {
     display: flex;
+    padding: 0px 28px;
 }
 
 .connect_img {
-    width: 170px;
-    height: 117px;
+    width: 100%;
+}
+
+.card_connect {
     border: 2px solid black;
-    margin: 10px;
-    margin-left: ;
+    margin: 10px 0;
+
+}
+
+.card_connect:nth-child(2) {
+    margin-left: 10px;
+}
+
+.tg {
+    display: flex;
+    justify-content: center;
+    color: #FFF;
+    font-family: Raleway;
+    font-size: 16.689px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+    /* 20.027px */
+    /* 20.027px */
+    border: 1.335px solid #000;
+    background: #000;
+    border: 1.335px solid #000;
+    background: #000;
 }

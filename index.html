@@ -20,7 +20,6 @@
 
 <body>
     <div class="header">
-        <img class="burger" src="images/burger.svg" alt="burger">
     </div>
     <div class="main">
         <div class="main_title">
@@ -32,7 +31,7 @@
         <img class="main_img" src="images/main.png" alt="">
         <div class="main_desc">Дизайн + девушки = самое уютное сообщество</div>
 
-        <a href="#slogan" class="main_link">
+        <a href="#connect" class="main_link">
             <button class="main_btn">ПРИНЯТЬ УЧАСТИЕ</button>
         </a>
 
@@ -169,33 +168,70 @@
         </div>
         <div class="content_questions">
             <ul>
-                <li class="block_questions">
-                    <div class="text_questions"> НУЖНО ЛИ <span> ПЛАТИТЬ </span> ЗА ОБУЧЕНИЕ?</div>
-                    <div class="icon_questions">+</div>
+                <li class="block_questions block_questions_open">
+                    <div class="header_questions">
+                        <div class="text_questions"> НУЖНО ЛИ <span> ПЛАТИТЬ </span> ЗА ОБУЧЕНИЕ?</div>
+                        <div class="icon_questions icon_questions_plus">+</div>
+                        <div class="icon_questions icon_questions_minus">-</div>
+
+                    </div>
+                    <div class="answer_questions">Мы разово делаем <span>символический взнос</span> - 1000 рублей. Это
+                        нужно для
+                        того, чтобы была дополнительная мотивация учиться и участвовать в активностях сообщества</div>
                 </li>
                 <li class="block_questions">
-                    <div class="text_questions"> СКОЛЬКО <span> ДЛИТСЯ </span> ОБУЧЕНИЕ? </div>
-                    <div class="icon_questions">+</div>
+                    <div class="header_questions">
+                        <div class="text_questions"> СКОЛЬКО <span> ДЛИТСЯ </span> ОБУЧЕНИЕ? </div>
+                        <div class="icon_questions icon_questions_plus">+</div>
+                        <div class="icon_questions icon_questions_minus">-</div>
+
+                    </div>
+                    <div class="answer_questions">Первый поток мы ведём <span>до января</span>: это большой срок,
+                        но это объясняется качеством и количеством материалов и заданий, которые мы даём: многие девочки
+                        видят свой прогресс в дизайне и отмечают, что пробелов в теории UX/UI становится всё меньше и
+                        меньше </div>
+
                 </li>
                 <li class="block_questions">
-                    <div class="text_questions"> КАКОЙ <span> УРОВЕНЬ </span>
-                        ДОЛЖЕН БЫТЬ У ДИЗАЙНЕРА?</div>
-                    <div class="icon_questions">+</div>
+                    <div class="header_questions">
+                        <div class="text_questions"> КАКОЙ <span> УРОВЕНЬ </span>
+                            ДОЛЖЕН БЫТЬ?</div>
+                        <div class="icon_questions icon_questions_plus">+</div>
+                        <div class="icon_questions icon_questions_minus">-</div>
+
+                    </div>
+                    <div class="answer_questions">Мы берем девочек, которые уже знают основы фигмы
+                        и неплохо разбираются в базовых принципах UX/UI.
+                        Также мы смотрим портфолио участниц, чтобы примерно оценить уровень каждой девочки. Золотая
+                        середина для всех нас - <span>Junior / Junior+</span>.</div>
+
                 </li>
             </ul>
         </div>
     </div>
-    <div class="connect">
-        <div class="connect_title">СВЯЗАТЬСЯ С НАМИ</div>
+    <div class="connect" id="connect">
+        <div class="connect_title">СВЯЗАТЬСЯ С&nbsp;НАМИ</div>
         <div class="container_connect">
-            <img src="images/nastya connect.png" class="connect_img" alt="">
-            <img src="images/karoline connect.png" class="connect_img" alt="">
+            <div class="card_connect">
+                <a href="https://t.me/novosadnastena">
+                    <img src="images/nastya_connect.png" class="connect_img" alt="">
+                    <div class="tg">TG. Насти</div>
+                </a>
+
+            </div>
+            <div class="card_connect">
+                <a href="https://t.me/KarolinaBelikova">
+                    <img src="images/karoline_connect.png" class="connect_img" alt="">
+                    <div class="tg">TG. Каролины</div>
+                </a>
+
+            </div>
         </div>
 
-    </div>
-    </div>
-</body>
 
+    </div>
+
+    <script src="index.js"></script>
 </body>
 
 </html>
